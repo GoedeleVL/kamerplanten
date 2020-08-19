@@ -1,0 +1,6 @@
+<h2>Mijn kamerplanten</h2>
+<ul class="planten">
+    <li *ngFor="let plant of planten">
+        <a routerLink="/detail/{{plant.id}}">{{plant.naam}}</a>
+    </li>
+</ul>

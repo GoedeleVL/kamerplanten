@@ -1,0 +1,17 @@
+<div *ngIf="!dorstigePlanten.length">
+    <h2>Joepie, er zijn geen dorstige plantjes!</h2>
+</div>
+<div *ngIf="dorstigePlanten.length">
+    <h2>Wij hebben dorst!</h2>
+    
+    <table class="planten">
+        <tr>
+            <th>Deadline</th>
+        </tr>
+        <tr *ngFor="let plant of dorstigePlanten">
+            <td><span [ngClass]="getClassFromDeadline(plant.deadline)">{{plant.deadline}}</span></td>
+            <td class="plant"><a routerLink="/detail/{{plant.id}}">{{plant.naam}}</a></td>
+        </tr>
+    </table>
+</div>
+

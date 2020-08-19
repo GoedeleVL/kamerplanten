@@ -1,0 +1,9 @@
+<div *ngIf="plant">
+    <h2>{{plant.naam | uppercase}}</h2>
+    <h3>Geef mij water op: <span>{{plant.deadline}}</span></h3>
+    <button (click)= "waterGekregen()">Water gekregen</button>
+    <app-plant-input [plant] = "plant"></app-plant-input>
+    <button (click)="save()">wijzigingen opslaan</button>
+    <button title="verwijder plant"
+      (click)="delete()">plant verwijderen</button>
+</div>

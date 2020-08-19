@@ -1,0 +1,16 @@
+
+    <div>
+            <label>Naam:
+                <input [(ngModel)]="plant.naam" placeholder="naam" required/>
+            </label>
+            <label>Hoeveelheid water:
+                <input [(ngModel)]="plant.hoeveelheid" placeholder="hoeveelheid" required/>
+            </label>
+            <label>Tijdinterval (in dagen) :
+                <input [(ngModel)]="plant.tijdinterval" placeholder="tijdinterval" type="number" required/>
+            </label>
+            <label><Label>Laatst water gekregen op:</Label>
+                <input [(ngModel)]="plant.watergekregen" type="date" />
+            </label>
+    </div>
+   

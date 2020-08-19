@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-kamerplanten"
+    }
+  },
+  "defaultProject": "angular-kamerplanten",
+  "cli": {
+    "analytics": "eb379e5a-4a63-4fb1-821f-c74d1250afea"
+  }
 }

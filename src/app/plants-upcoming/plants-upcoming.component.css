@@ -1,0 +1,35 @@
+  .plant td:hover {
+    color: #607D8B;
+    background-color: #DDD;
+  }
+  
+  .plant a {
+    color: #333;
+    background-color: #EEE;
+    text-decoration: none;
+    margin: .5em;
+    padding: .3em;
+    height: 1.6em;
+    border-radius: 4px;
+    position: relative;
+    display: block;
+    width: 250px;
+  
+  }
+  
+  .plant a:hover {
+    color: #607D8B;
+    background-color: #EEE;
+    height: 1.6em;
+    border-radius: 4px;
+  }
+
+  
+
+  .dringend {
+    color: red;
+  }
+
+  .nietDringend {
+    color: green;
+  }
